@@ -1,0 +1,129 @@
+/* --------google workes---------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*---------------- home-styles----------- */
+.home-banner{
+   margin: 100px 50px ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    align-items: center;
+}
+.dricption{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #727272;
+}
+.home-text{
+    font-size: 30px;
+}
+/*-------------- brand-styles------------- */
+.brand-banner{
+    width: 100%;
+    height:125px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.brand-header{
+    width: 600px;
+    text-align: center;
+}
+.title{
+    font-size: 28px;
+    font-weight: 700;
+}
+/*------------ explore------------ */
+.expolre-banner{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+button{
+    color: aliceblue;
+    padding: 10px 5px;
+    background-color: #FF900E;
+    height: 50px;
+    border-radius: 8px;
+
+}
+/*------------ img-section-------- */
+.img-section,img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+/*--------------- quick----------------- */
+.quick-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 30px;
+    
+}
+.quick-banner{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-row-gap: 20px;
+width: 70%;
+}
+.quick{
+    width: 340px;
+    height: 340px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.quick-title{
+    width: 300px;
+}
+.text-primary{
+    color: #727272;
+}
+.text-primary-1{
+    color:#FF900E
+}
+/*----------------- main style------------ */
+.main{
+    width: 98%;
+    height: 1059px;
+    display: flex;
+    justify-content: space-between;
+    gap: 54;
+    margin: 2%;
+}
+.title-dricption{
+    width:500px;
+    height: 160px;
+}
+.comment{
+    width:500px;
+    height: 170px;
+    background-color: #FFFFFF ;
+    border-radius: 8px;
+}
+.main-pic{
+    width: 650px;
+    height: 1059px;
+}
+/*  */
+.title-cls{
+    margin-left: 20px;
+}
+.dricption-cls{
+    width: 525px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+}
+
+
+
