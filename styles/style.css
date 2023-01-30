@@ -115,7 +115,10 @@ width: 70%;
     width: 650px;
     height: 1059px;
 }
-/*  */
+/* -------- some facts-------- */
+.some{
+    width: 400px;
+}
 .title-cls{
     margin-left: 20px;
 }
@@ -124,6 +127,131 @@ width: 70%;
     margin-left: 20px;
     margin-bottom: 120px;
 }
+/*------------- font awesome ------------- */
+.continer{
+    width: 100%;
+    height: 241px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 80px;
+}
+.continer-box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.title-number{
+    font-size:26px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10%;
+    align-items: center;
+
+}
+.image-icon{
+    width: 25px;
+    height: 25px;
+}
+/* ----------------- our sponspores ----------------- */
+.sponspors{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.sponspors-title{
+    width: 500px;
+    text-align: center;
+    
+
+}
+/* ----------------investor--banner-------------- */
+.invester{
+   display: flex;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   margin-top: 80px;
+}
+.adv{
+    width: 165px;
+    height: 50px; 
+}
+
+/*---------------- footer----------- */
+.footer-banner{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer{
+    align-items: center;
+}
+/*----------- midea quary-------------- */
+ @media screen and (max-width:576px) {
+    .continer,.some{
+        flex-direction: column;
+        padding: 20%;
+        height: 300px;
+        gap: 20px;
+    }
+    .main-cls{
+        width: 100%;
+    }
+    .some{
+        margin-bottom: 300px;
+    }
+    .main{
+        flex-direction: column-reverse;
+        padding: 10px;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .main-pic{
+        width: 100%;
+    }
+    
+.quick-header{
+    flex-direction: column-reverse;
+    grid-template-columns: repeat(1,1fr);
+}
+.home-banner,.dricption{
+    flex-direction: column;
+}
+.invester{
+    flex-direction: column;
+    align-items: center;
+}
+
+ }
+ @media screen and (min-width:577px) and (max-width:992px) {
+    
+ }
+ .hide{
+    display:none;
+ }
+
+
+
+
+
 
 
 
